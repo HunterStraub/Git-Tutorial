@@ -1,0 +1,18 @@
+git init
+Initialized empty Git repository in /home/HunterStraub/Git-Tutorial/.git/
+
+git status -s
+?? hello
+?? hello.c
+
+git add hello.c
+
+git status -s
+A hello.c
+?? hello
+
+git commit -m 'Initial commit'
+
+git remote add origin https://github.com/HunterStraub/Git-Tutorial.git
+
+git push -u origin master
